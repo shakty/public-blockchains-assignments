@@ -51,6 +51,13 @@ async function main() {
     // (we will understand logs in detail later in the course).
     const { text, id } = extractQuestion(quizContract, receipt);
 
+    if (!text) {
+        console.log('An error occurred, please try again.');
+        console.log('More info here: https://sepolia.etherscan.io/tx/' +
+            receipt.hash);
+        return;
+    }
+
     // Now YOU answer the question!
     // Capture user input from the terminal.
     const userAnswer = await getUserAnswer();

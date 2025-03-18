@@ -17,6 +17,7 @@ contracts
 
 scripts/assignment_1/quiz_solution.js
 scripts/assignment_1/check_registered.js
+scripts/assignment_1/deploy.js
 scripts/deploy_local.js
 
 *.xlsx
