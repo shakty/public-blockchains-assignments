@@ -1,0 +1,75 @@
+node_modules
+
+build/contracts/*
+
+.idea
+
+.env
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#contracts/assignment_1/Assignment1.sol
+contracts
+
+scripts/assignment_1/quiz_solution.js
+scripts/assignment_1/check_registered.js
+scripts/deploy_local.js
+
+*.xlsx
+
+assignment_2
+assignment_3
+assignment_4
+assignment_5
+
+contracts/assignment_2/Assignment2.sol
+scripts/assignment_2/interact2.js
+scripts/assignment_2/interact.js
+
+# assignment_3/Token.sol
+# assignment_4
+# validators/assignment_4
+.addresses.json
+# Assignment4Exchange.sol
+
+val3_abi.json
+
+scripts/assignment_4/interact*
+# deploy_unima.js
+
+# Hardhat files
+cache
+artifacts
+
+*Silas*
+
+exam
+
+*.test
+Assignment4Exchange.template.sol
+
+quiz_check.js
+
+now_abi.json
+
+
+
+*.csv
+
+*.Rmd
+*.nb.html
+send_now_coins*
+send_now_tokens*
+deploy_my_quiz.js
+
+myquiz2*
+
+get_*
+
+val2*
+
+ERC20*
