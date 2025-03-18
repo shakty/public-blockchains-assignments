@@ -9,6 +9,11 @@ const getUserAnswer = async () => {
     return normalizedUserAnswer;
 };
 
+const moreInfo = (receipt) => {
+    console.log('More info here: https://sepolia.etherscan.io/tx/' + 
+    receipt.hash);
+};
+
 const extractQuestion = (quizContract, receipt) => {
 
     // Retrieve logs from all events
@@ -50,4 +55,4 @@ async function getUserInput(prompt) {
     });
 }
 
-module.exports = { getUserAnswer, extractQuestion };
+module.exports = { getUserAnswer, extractQuestion, moreInfo };
