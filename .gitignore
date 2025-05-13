@@ -16,7 +16,7 @@ contracts/assignment_1
 # contracts/assignment_2
 contracts/assignment_3/CensorableToken.sol
 # contracts/assignment_4
-contracts/assignment_5
+# contracts/assignment_5
 
 scripts/assignment_1/quiz_solution.js
 scripts/assignment_1/check_registered.js
@@ -28,7 +28,7 @@ scripts/deploy_local.js
 # assignment_2
 scripts/assignment_3/deploy_token.js
 # assignment_4
-assignment_5
+# assignment_5
 
 # contracts/assignment_2/Assignment2.sol
 scripts/assignment_2
