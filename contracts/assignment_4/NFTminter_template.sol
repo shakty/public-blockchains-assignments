@@ -56,7 +56,7 @@ contract NFTminter_template is ERC721URIStorage {
             "{",
             '"name": "My beautiful artwork #',
             tokenId.toString(),
-            '"', 
+            '",', 
             '"hash": "',
             // TODO: hash
             "SOME_HASH",
